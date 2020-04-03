@@ -34,7 +34,7 @@ RUN apk add --no-cache --update-cache openssh-client curl unzip bash ttf-dejavu 
 #开始定制
 ARG mvn3VERSION=3.3.9
 ARG gitVERSION=2.24.1-r0
-ARG nodejsVERSION=10.14.2-r0
+ARG nodejsVERSION=12.15.0-r1
 
 ARG ANT_VERSION=1.10.5
 ENV ANT_HOME=/opt/ant
